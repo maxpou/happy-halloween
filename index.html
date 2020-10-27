@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
   <script src="./index.js"></script>
-  <title>happyHalloween.js</title>
+  <title>happy-halloween</title>
   <style>
   html,
   body {
@@ -16,31 +17,103 @@
   </style>
 </head>
 <body>
-<div class="center">
-  <h1>happyHalloween.js</h1>
-  <img src="./assets/iconfinder_mouse_202899.png" alt="Pumpkin">
-</div>
+<header>
+  <p>happy-halloween</p>
+</header>
+<main>
+  
+  <div class="pumpkin">
+    <img src="./assets/pumpkin.png" alt="Pumpkin">
+  </div>
+  
+  <h1>happy-halloween.js</h1>
+  <h2>What is this package doing?</h2>
+  <ul>
+    <li>Replace the mouse cursor with a tiny Pumpkin;</li>
+    <li>Makes sounds when the user click a link.</li>
+  </ul>
+  <p>See the source code: <a href="https://github.com/maxpou/happy-halloween">github.com/maxpou/happy-halloween</a></p>
 
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime officiis eveniet tenetur nisi nemo consequatur illo fugit minima ex autem explicabo perferendis facilis, debitis dicta reprehenderit consectetur architecto repudiandae.
-</p>
-<ul>
-  <li><a href="#">Get ready to be scared! 🎃</a></li>
-  <li><input type="button" class="btn" value="It's also works with button 👻"></li>
-</ul>
+  <h2>How to install</h2>
+  <code>
+    yarn install happy-halloween
+  </code>
+  <p>In your application entrypoint:</p>
+  <code>
+    import 'happy-halloween';
+  </code>
 
-<hr>
+  <h2>Demo</h2>
+  <p>Click on the following item to see! Get ready to be scared!</p>
+  <ul>
+    <li><a href="#">I'm a link 🎃</a></li>
+    <li><input type="button" class="btn" value="It's also works with button 👻"></li>
+  </ul>
 
-<p>Source code: <a href="https://github.com/maxpou/happyHalloween.js">https://github.com/maxpou/happyHalloween.js</a> by <a href="https://twitter.com/_maxpou">@_maxpou</a>. Inspired by <a href="https://github.com/jlengstorf/honkify">honkify</a></p>
+  <h2>Why???</h2>
+  <p>I've no idea!</p>
+</main>
+<footer>
+  <p>
+    Created by <a href="https://twitter.com/_maxpou">Maxence Poutord</a>
+    ·
+    Inspired by <a href="https://github.com/jlengstorf/honkify">honkify</a>
+  </p>
+</footer>
 <style>
-.center {
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #ff6307;
+  font-family: 'Henny Penny', cursive;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   min-height: 20vh;
 }
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  max-width: 90vw;
+  width: 580px;
+}
+
+footer {
+  background-color: #ff6307;
+  color: #ffffff;
+  min-height: 8vh;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+footer > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 580px;
+  text-align: center;
+}
+footer > p > a {
+  color: #ffffff;
+}
+
+.pumpkin {
+  text-align: center;
+}
+
+a {
+  color: #ff6307;
+}
+
 .btn {
   background-color: #ff6307;
   border: none;

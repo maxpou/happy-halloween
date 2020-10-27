@@ -1,0 +1,12 @@
+{
+  "name": "happyhalloween.js",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Maxence Poutord <github@maxpou.fr> (https://www.maxpou.fr)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxpou/happy-halloween"
+  },
+  "homepage": "https://happy-halloween.netlify.app"
+}

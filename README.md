@@ -1,8 +1,8 @@
-# 🎃 happyHalloween.js
+# 🎃 happy-halloween
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b8c74293-641a-488b-9a02-ba89c7d11410/deploy-status)](https://app.netlify.com/sites/cocky-golick-16dbd9/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8c74293-641a-488b-9a02-ba89c7d11410/deploy-status)](https://app.netlify.com/sites/happy-halloween/deploys)
 
-👉 [Try the demo](https://cocky-golick-16dbd9.netlify.com/)
+👉 [Try the demo](https://happy-halloween.netlify.app)
 
 ## How to use it
 

@@ -1,6 +1,6 @@
 const happyHalloween = () => {
   const audio = new Audio(
-    './assets/ghost01.mp3'
+    'https://happy-halloween.netlify.app/assets/ghost.mp3'
   )
 
   const defaultSelectors = [
@@ -24,7 +24,7 @@ const happyHalloween = () => {
     somethingClickable.addEventListener('click', booSound)
   })
   
-  document.body.style.cursor = "url('https://i.ibb.co/ZVYWMDj/iconfinder-mouse-202899.png'), auto"
+  document.body.style.cursor = "url('https://happy-halloween.netlify.app/assets/pumpkin.png'), auto"
 }
 
 window.onload = () => {
