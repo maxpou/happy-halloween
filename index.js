@@ -22,6 +22,7 @@ const happyHalloween = () => {
 
   everythingClickable.forEach(somethingClickable => {
     somethingClickable.addEventListener('click', booSound)
+    somethingClickable.style.cursor = "url('https://happy-halloween.netlify.app/assets/pumpkin.png'), auto"
   })
   
   document.body.style.cursor = "url('https://happy-halloween.netlify.app/assets/pumpkin.png'), auto"

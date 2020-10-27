@@ -26,29 +26,39 @@
     <img src="./assets/pumpkin.png" alt="Pumpkin">
   </div>
   
-  <h1>happy-halloween.js</h1>
+  <h1>happy-halloween</h1>
   <h2>What is this package doing?</h2>
   <ul>
     <li>Replace the mouse cursor with a tiny Pumpkin;</li>
-    <li>Makes sounds when the user click a link.</li>
+    <li>Makes sounds when the user click a link/button.</li>
   </ul>
   <p>See the source code: <a href="https://github.com/maxpou/happy-halloween">github.com/maxpou/happy-halloween</a></p>
-
-  <h2>How to install</h2>
-  <code>
-    yarn install happy-halloween
-  </code>
-  <p>In your application entrypoint:</p>
-  <code>
-    import 'happy-halloween';
-  </code>
 
   <h2>Demo</h2>
   <p>Click on the following item to see! Get ready to be scared!</p>
   <ul>
     <li><a href="#">I'm a link 🎃</a></li>
-    <li><input type="button" class="btn" value="It's also works with button 👻"></li>
+    <li><button>It's also works with button 👻</button></li>
   </ul>
+
+  <h2>How to install</h2>
+
+  <h3>Installation with npm / yarn</h3>
+  <code>
+    npm install happyhalloween.js
+  </code>
+  <p>In your application entrypoint:</p>
+  <code>
+    import 'happyhalloween.js';
+  </code>
+
+  <h3>Installation without npm</h3>
+
+  <ol>
+    <li>Open your browser console</li>
+    <li>Copy paste <code>index.js</code> content</li>
+    <li>Enjoy halloween 🦇</li>
+  </ol>
 
   <h2>Why???</h2>
   <p>I've no idea!</p>
@@ -114,7 +124,7 @@ a {
   color: #ff6307;
 }
 
-.btn {
+button {
   background-color: #ff6307;
   border: none;
   color: white;
